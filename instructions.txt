@@ -1,0 +1,16 @@
+---Instructions---
+
+
+Adding new view (eg. foo)
+
+	1) Create new folder (foo) in app/partials, and put inside this folder the following files:
+
+		-) foo.html (the view)
+		-) foo.js (the controller)
+		-) foo.css (the style)
+
+	2) Add the proper module (myApp.foo) and routing function in app.js
+
+	3) Link partials/foo/foo.js at the bottom of index.html
+
+
